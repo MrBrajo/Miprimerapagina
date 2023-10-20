@@ -1,0 +1,262 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  /* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    body{
+        background: -webkit-linear-gradient(left, #adbdbd, rgb(170, 165, 165), #adbdbd); 
+    }
+    
+    header div nav {
+        background-color: rgb(8, 8, 15);
+    }
+
+    header div nav label i{
+        color: white;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    #check{
+        display: none;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    main .presentacion{
+        width: 90%;
+        margin: 30px;
+        border: 1px solid white;
+    }
+
+    main div h2{
+        text-align: center;
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    #imgperfil{
+        display: flex;
+        justify-content: center;
+    }
+
+    .checkbtn{
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+    }
+
+    header div nav ol{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(255, 255, 255);
+        text-align: center;
+        top: 80px;
+        left: 100%;
+        transition: all 0.5s;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header div nav ol li{
+        font-size: 36px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    #check:checked ~ ol{
+        left: 0;
+        display: block;
+    }
+
+ 
+
+
+    .tarjeta1{
+        border: solid 2px black;
+        display: flex;
+        justify-content: center;
+    
+    
+    }
+    
+      .tarjeta1 div h3{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        border: solid 1px blue;
+    
+    }
+
+  }
+
+
+
+
+@media (min-width: 768px){
+body{
+    background: -webkit-linear-gradient(left, #424747, rgb(170, 165, 165), #424747); 
+}
+
+
+#check{
+    display:none;
+}
+
+.checkbtn{
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+ header nav {
+    font-family: Arial;
+    background: -webkit-linear-gradient(left, rgb(0, 1, 1), rgb(108, 104, 104), rgb(1, 1, 1)); 
+    padding: 20px;
+    text-align: right;
+    text-decoration:underline;
+    border-radius: 2px;    
+    position:fixed;
+    width: 100%;
+}
+
+ .tituloprincipal{
+padding-top: 100px;
+text-align: center;
+}
+
+header nav ol li {
+    list-style:none;
+    display: inline-block;
+    margin: 20px;
+}
+
+
+header nav ol li a {
+    font-size: 20px;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+}
+
+div .imgperfil {
+    width: 30%;
+    margin-left: 550px;
+    float: left;
+}
+
+h2{
+    background-color: blue; 
+    color: white;
+    padding: 2px;
+    text-align: center;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 1200px;
+    border: 10px solid blue;
+    border-radius: 30px;
+}
+
+
+p {
+    padding: 5px;
+    font-size: 30px;
+}
+
+.tarjetas {
+    font-size: 25px;
+    height: 400px;
+    margin: 10px;
+    border: solid 2px rgb(230, 14, 14);
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjeta1{
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    width: 1800px;
+
+}
+
+
+  .tarjeta1 div{
+    color: white;
+    display:flex;
+    justify-content: space-between;
+
+    border: solid 1px blue;
+
+}
+
+
+
+/* .imghobbies {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+} */
+
+
+footer h1{
+   text-align: center;
+   background-color: rgb(18, 232, 247);
+    font-size: 30px;
+    border-color: black;
+    border-top: 100px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(56, 57, 57);
+     font-size: 30px;
+ }
+
+ footer nav ol li a{
+    text-align: center;
+    background-color: rgb(56, 57, 57);
+     font-size: 30px;
+     border-top: 100px;
+     border-radius: 20px;
+     color: white; 
+ }
+
+ #seccion1, #seccion2 {
+    display: flex;
+  }
+
+
+  #seccion1 div img {
+    width: 400px;
+    justify-content: left;
+  }
+
+  img {
+    width:100%;
+    padding: 100px;
+  }
+}
+  
+  
