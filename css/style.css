@@ -10,7 +10,7 @@
   /* Estilos para pantallas más pequeñas (hasta 768px) */
 @media (max-width: 768px) {
     body{
-        background: -webkit-linear-gradient(left, #adbdbd, rgb(170, 165, 165), #adbdbd); 
+        background: -webkit-linear-gradient(left, #ffffff, rgb(212, 207, 207), #ffffff); 
     }
     
     header div nav {
@@ -109,7 +109,7 @@
 
 @media (min-width: 768px){
 body{
-    background: -webkit-linear-gradient(left, #424747, rgb(170, 165, 165), #424747); 
+    background: -webkit-linear-gradient(left, #b4bcbc, rgb(170, 165, 165), #b4bcbc); 
 }
 
 
